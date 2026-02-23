@@ -54,8 +54,11 @@ class Notes {
 		String phrase = "Hello There Young Fellow";
 
 		String[] phraseArr = phrase.split(" "); //each element is an inividual word
+		// ["Hello", "There", "Young", "Fellow"]
 		// String[] phraseArr = phrase.split("l"); //removes all l's and create elements of characters between them
+		// ["He", "", "o There Young Fe", "", "ow"]
 		// String[] phraseArr = phrase.split(""); //Every character
+		// ["H", "e", "l", "l", "o", " ", "T", "h", "e", "r", "e", " ", "Y", "o", "u"]
 
 		for (int i = 0; i < phraseArr.length; i++) {
 			System.out.println(phraseArr[i]);
